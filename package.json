@@ -1,7 +1,7 @@
 {
   "name": "ample-light-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Ample Syntax based on emacs ample light theme",
   "keywords": [
     "syntax",
