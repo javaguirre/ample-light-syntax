@@ -1,0 +1,15 @@
+{
+  "name": "ample-light-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Ample Syntax based on emacs ample light theme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/javaguirre/ample-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
