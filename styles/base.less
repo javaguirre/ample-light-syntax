@@ -4,6 +4,11 @@ atom-text-editor, :host {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
+  .line-number {
+    background-color: @region-dark;
+    color: @region-light;
+  }
+
   .wrap-guide {
     background-color: @syntax-wrap-guide-color;
   }
@@ -72,7 +77,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.other.inherited-class {
-    color: @green;
+    color: @syntax-text-color;
   }
 }
 
@@ -161,6 +166,10 @@ atom-text-editor .search-results .marker.current-result .region,
   &.other.link {
     color: @red;
   }
+
+  &.unquoted {
+    color: @very-dark-gray;
+  }
 }
 
 .punctuation {
@@ -238,8 +247,7 @@ atom-text-editor .search-results .marker.current-result .region,
   }
 
   &.name.tag {
-    color: @red;
-    text-decoration: underline;
+    color: @dark-yellow;
   }
 
   &.other.attribute-name {
@@ -253,7 +261,7 @@ atom-text-editor .search-results .marker.current-result .region,
 
 .meta {
   &.class {
-    color: @light-orange;
+    color: @blue;
   }
 
   &.link {
